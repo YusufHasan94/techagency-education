@@ -1,0 +1,16 @@
+[
+    {
+        "banner_id": "001",
+        "image": "https://i.ibb.co/5KyvNCq/banner2.jpg",
+        "quote_id": "1",
+        "text": "Education is the most powerful weapon which you can use to change the world.",
+        "small_title": "Nelson Mandela"
+    },
+    {
+        "banner_id": "002",
+        "image": "https://i.ibb.co/Jmsz0wx/banner.jpg",
+        "quote_id": "2",
+        "text": "The function of education is to teach one to think intensively and to think critically. Intelligence plus character - that is the goal of true education.",
+        "small_title": "Martin Luther King Jr."
+    }
+]
