@@ -6,7 +6,7 @@ const Banner = () => {
             <div>
                 <img src={banner} alt="" className="" />
             </div>
-            <div className="absolute md:top-1/2 md:right-1/2 md:pl-5 p-5 md:p-0 md:mt-0">
+            <div className="md:absolute md:top-1/2 md:right-1/2 md:pl-5 p-5 md:p-0 md:mt-0">
                 <h1 className="md:text-6xl text-2xl font-bold text-blue-950">
                     Experience a learning <br /> platform that take you <br /> next level
                 </h1>

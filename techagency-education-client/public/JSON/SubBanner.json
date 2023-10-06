@@ -1,0 +1,20 @@
+[
+    {
+        "id": "001",
+        "image": "https://i.ibb.co/tbms2qm/open-book-1.png",
+        "text": "Over 100+ ",
+        "description": "Video courses on career skills"
+    },
+    {
+        "id": "002",
+        "image": "https://i.ibb.co/J5q19v2/thinking-1.png",
+        "text": "Choose from",
+        "description": "Top industry instructors"
+    },
+    {
+        "id": "003",
+        "image": "https://i.ibb.co/hYK8By4/access-control.png",
+        "text": "Lifetime access",
+        "description": "On mobile and desktop"
+    }
+]

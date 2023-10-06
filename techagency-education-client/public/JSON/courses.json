@@ -1,0 +1,126 @@
+[
+    {
+        "id": 1,
+        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
+        "title": "Introduction to Programming",
+        "tag": "Programming",
+        "price": 49.99,
+        "instructor": {
+            "name": "John Doe",
+            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+        },
+        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "curriculum": {
+            "topics": [
+                "Getting Started with Programming",
+                "Variables and Data Types",
+                "Control Structures",
+                "Functions and Methods",
+                "Arrays and Lists",
+                "Object-Oriented Programming",
+                "Error Handling",
+                "File Handling"
+            ]
+        },
+        "last_update_date": "2023-10-01",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "ratings": {
+            "average_rating": 4.7,
+            "number_of_ratings": 325
+        }
+    },
+    {
+        "id": 2,
+        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
+        "title": "Introduction to Programming",
+        "tag": "Programming",
+        "price": 49.99,
+        "instructor": {
+            "name": "John Doe",
+            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+        },
+        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "curriculum": {
+            "topics": [
+                "Getting Started with Programming",
+                "Variables and Data Types",
+                "Control Structures",
+                "Functions and Methods",
+                "Arrays and Lists",
+                "Object-Oriented Programming",
+                "Error Handling",
+                "File Handling"
+            ]
+        },
+        "last_update_date": "2023-10-01",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "ratings": {
+            "average_rating": 4.7,
+            "number_of_ratings": 325
+        }
+    },
+    {
+        "id": 3,
+        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
+        "title": "Introduction to Programming",
+        "tag": "Programming",
+        "price": 49.99,
+        "instructor": {
+            "name": "John Doe",
+            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+        },
+        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "curriculum": {
+            "topics": [
+                "Getting Started with Programming",
+                "Variables and Data Types",
+                "Control Structures",
+                "Functions and Methods",
+                "Arrays and Lists",
+                "Object-Oriented Programming",
+                "Error Handling",
+                "File Handling"
+            ]
+        },
+        "last_update_date": "2023-10-01",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "ratings": {
+            "average_rating": 4.7,
+            "number_of_ratings": 325
+        }
+    },
+    {
+        "id": 4,
+        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
+        "title": "Introduction to Programming",
+        "tag": "Programming",
+        "price": 49.99,
+        "instructor": {
+            "name": "John Doe",
+            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+        },
+        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "curriculum": {
+            "topics": [
+                "Getting Started with Programming",
+                "Variables and Data Types",
+                "Control Structures",
+                "Functions and Methods",
+                "Arrays and Lists",
+                "Object-Oriented Programming",
+                "Error Handling",
+                "File Handling"
+            ]
+        },
+        "last_update_date": "2023-10-01",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "ratings": {
+            "average_rating": 4.7,
+            "number_of_ratings": 325
+        }
+    }
+]
