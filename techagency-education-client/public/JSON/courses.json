@@ -32,95 +32,93 @@
     },
     {
         "id": 2,
-        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
-        "title": "Introduction to Programming",
-        "tag": "Programming",
-        "price": 49.99,
+        "image": "https://img.freepik.com/premium-vector/web-developer-is-analyzing-programming-language_18660-442.jpg?w=740",
+        "title": "Web Development Fundamentals",
+        "tag": "Web Development",
+        "price": 59.99,
         "instructor": {
-            "name": "John Doe",
-            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+            "name": "Jane Smith",
+            "image": "https://img.freepik.com/free-photo/businessman-black-suit-holding-his-tasklist-smiling_114579-18998.jpg?w=740&t=st=1696623336~exp=1696623936~hmac=28ce9cc84fc4f0db632c3cf87f7f4103e64cf610cff35c25b5aae369c193e081"
         },
-        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "overview": "Explore the world of web development with this foundational course...",
         "curriculum": {
             "topics": [
-                "Getting Started with Programming",
-                "Variables and Data Types",
-                "Control Structures",
-                "Functions and Methods",
-                "Arrays and Lists",
-                "Object-Oriented Programming",
-                "Error Handling",
-                "File Handling"
+                "HTML and CSS Basics",
+                "Responsive Web Design",
+                "JavaScript Fundamentals",
+                "Backend Technologies",
+                "Database Integration",
+                "Frameworks and Libraries",
+                "Deploying Websites",
+                "Security Best Practices"
             ]
         },
-        "last_update_date": "2023-10-01",
-        "duration": "8 weeks",
-        "level": "Beginner",
+        "last_update_date": "2023-09-15",
+        "duration": "10 weeks",
+        "level": "Intermediate",
         "ratings": {
-            "average_rating": 4.7,
-            "number_of_ratings": 325
+            "average_rating": 4.8,
+            "number_of_ratings": 280
         }
-    },
-    {
+    },{
         "id": 3,
-        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
-        "title": "Introduction to Programming",
-        "tag": "Programming",
-        "price": 49.99,
+        "image": "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18134.jpg?w=740&t=st=1696623610~exp=1696624210~hmac=e1512c10f12c5f222ac14bb3f09cb764c6d2e845ee2b6a668b6e9904c4bcc082",
+        "title": "Data Science Essentials",
+        "tag": "Data Science",
+        "price": 69.99,
         "instructor": {
-            "name": "John Doe",
-            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+            "name": "Alice Johnson",
+            "image": "https://img.freepik.com/free-photo/bearded-young-man-wearing-shirt_273609-5938.jpg?w=740&t=st=1696623316~exp=1696623916~hmac=77584616e33fcd88e6f0688be99eda15301b55e87562a4306130d82ddb239ace"
         },
-        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "overview": "Unlock the power of data with this essential data science course...",
         "curriculum": {
             "topics": [
-                "Getting Started with Programming",
-                "Variables and Data Types",
-                "Control Structures",
-                "Functions and Methods",
-                "Arrays and Lists",
-                "Object-Oriented Programming",
-                "Error Handling",
-                "File Handling"
+                "Data Analysis with Python",
+                "Data Visualization",
+                "Machine Learning Basics",
+                "Statistical Analysis",
+                "Big Data Technologies",
+                "Data Ethics and Privacy",
+                "Real-world Projects",
+                "Career Opportunities"
             ]
         },
-        "last_update_date": "2023-10-01",
-        "duration": "8 weeks",
-        "level": "Beginner",
+        "last_update_date": "2023-09-30",
+        "duration": "12 weeks",
+        "level": "Intermediate",
         "ratings": {
-            "average_rating": 4.7,
-            "number_of_ratings": 325
+            "average_rating": 4.9,
+            "number_of_ratings": 410
         }
-    },
-    {
+    },{
         "id": 4,
-        "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
-        "title": "Introduction to Programming",
-        "tag": "Programming",
-        "price": 49.99,
+        "image": "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?w=740&t=st=1696623653~exp=1696624253~hmac=81d7d444e28836f4c9bbf4cfa616299ae7db0426da682147e46584d2ec53de3e",
+        "title": "Mobile App Development with Flutter",
+        "tag": "Mobile App Development",
+        "price": 79.99,
         "instructor": {
-            "name": "John Doe",
-            "image": "https://img.freepik.com/free-photo/waist-up-portrait-handsome-serious-unshaven-male-keeps-hands-together-dressed-dark-blue-shirt-has-talk-with-interlocutor-stands-against-white-wall-self-confident-man-freelancer_273609-16320.jpg?w=740&t=st=1696621432~exp=1696622032~hmac=97c564be21979c013ab42c011ca62ad0d82af019f4de3f30fda5a12b9e7e3028"
+            "name": "Michael Brown",
+            "image": "https://img.freepik.com/free-photo/young-handsome-man-holding-notebooks-concept-e-learning-courses_1258-26588.jpg?w=740&t=st=1696623298~exp=1696623898~hmac=b250d20c2703e8a495badaf10b7d6a34ff0478f9ebf10788886945530c5c7695"
         },
-        "overview": "This beginner-friendly course provides a solid foundation in programming. Covering key concepts like variables, control structures, and functions, it's perfect for those new to coding. With an experienced instructor and hands-on practice, you'll gain the skills to create your own programs and explore the world of software development.",
+        "overview": "Learn to create cross-platform mobile apps using Flutter...",
         "curriculum": {
             "topics": [
-                "Getting Started with Programming",
-                "Variables and Data Types",
-                "Control Structures",
-                "Functions and Methods",
-                "Arrays and Lists",
-                "Object-Oriented Programming",
-                "Error Handling",
-                "File Handling"
+                "Introduction to Flutter",
+                "Widgets and UI Design",
+                "State Management",
+                "API Integration",
+                "Testing and Debugging",
+                "Publishing to App Stores",
+                "Flutter for Web",
+                "App Monetization"
             ]
         },
-        "last_update_date": "2023-10-01",
-        "duration": "8 weeks",
-        "level": "Beginner",
+        "last_update_date": "2023-10-10",
+        "duration": "9 weeks",
+        "level": "Intermediate",
         "ratings": {
-            "average_rating": 4.7,
-            "number_of_ratings": 325
+            "average_rating": 4.6,
+            "number_of_ratings": 260
         }
     }
 ]

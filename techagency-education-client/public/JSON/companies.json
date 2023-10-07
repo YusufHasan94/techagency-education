@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "icon": "https://i.ibb.co/jJwwmpL/chatgpt.png"
+    },
+    {
+        "id": 2,
+        "icon": "https://i.ibb.co/SPnykfB/spotify.png"
+    },
+    {
+        "id": 3,
+        "icon": "https://i.ibb.co/6nJcxWF/ios.png"
+    },
+    {
+        "id": 4,
+        "icon": "https://i.ibb.co/q5JSdSQ/yahoo.png"
+    },{
+        "id": 5,
+        "icon": "https://i.ibb.co/yqbCVbN/social.png"
+    },
+    {
+        "id": 6,
+        "icon": "https://i.ibb.co/FhRSdwv/dropbox.png"
+    },
+    {
+        "id": 7,
+        "icon": "https://i.ibb.co/T0LZ0rC/500px.png"
+    }
+]
