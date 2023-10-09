@@ -8,7 +8,7 @@ const FeaturedTopics = () => {
         .then(data=>setTopics(data))
     },[])
     return (
-        <div className='max-w-screen-xl md:mx-auto mx-5 my-20'>
+        <div className='max-w-screen-xl md:mx-auto mx-5 my-20 sm:mx-20'>
             <h1 className='text-2xl md:text-4xl font-semibold text-blue-950 uppercase text-center md:text-left'>
                 Featured topics by category
             </h1>

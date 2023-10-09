@@ -34,7 +34,7 @@ const Stories = () => {
                             spaceBetween: 20,
                         },
                         '@1.00': {
-                            slidesPerView: 3,
+                            slidesPerView: 2,
                             spaceBetween: 40,
                         },
                         '@1.50': {
@@ -44,12 +44,12 @@ const Stories = () => {
                     }}
                     modules={[Pagination]}
                     className="mySwiper"
-                    style={{height: '465px'}}
+                    style={{height: '500px'}}
                 >
                     {
                         stories.map(story=>(
                             <SwiperSlide key={story.id}>
-                                <div className='bg-gray-100 shadow-2xl rounded-xl relative p-4' style={{height: '425px'}}>
+                                <div className='bg-gray-100 shadow-2xl rounded-xl relative p-4' style={{height: '475px'}}>
                                     <div className='flex justify-center'>
                                         <img src={story.image} alt="" className='w-32 h-32 rounded-full' />
                                     </div>

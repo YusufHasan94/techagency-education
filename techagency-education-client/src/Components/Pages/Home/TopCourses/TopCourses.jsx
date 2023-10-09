@@ -13,7 +13,7 @@ const TopCourses = () => {
     return (
         <div className='max-w-screen-xl md:mx-auto mx-7 my-20'>
             <h1 className='text-center text-2xl md:text-4xl text-blue-950 font-semibold uppercase'>Top Rated Learning Tutorials</h1>
-            <div className='my-20 grid grid-cols-1 md:grid-cols-4 gap-10 justify-items-center'>
+            <div className='my-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 justify-items-center'>
                 {
                     courses.map(course => (
                         <div key={course.id} className='bg-gray-100 shadow-2xl rounded-xl overflow-hidden pb-5' style={{height: '450px'}}>

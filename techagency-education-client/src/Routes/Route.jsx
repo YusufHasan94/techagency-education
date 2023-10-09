@@ -9,6 +9,8 @@ import About from "../Components/Pages/About/About";
 import Privacy from "../Components/Pages/Privacy/Privacy";
 import Terms from "../Components/Pages/Terms/Terms";
 import Error from "../Components/Pages/Error/Error";
+import Login from "../Components/Pages/Login/Login";
+import Registration from "../Components/Pages/Registration/Registration";
 
 export const router = createBrowserRouter([
     {
@@ -39,6 +41,12 @@ export const router = createBrowserRouter([
         },{
           path: '/terms',
           element: <Terms/>
+        },{
+          path: '/login',
+          element: <Login/>
+        },{
+          path: '/registration',
+          element: <Registration/>
         }
       ]
     },
