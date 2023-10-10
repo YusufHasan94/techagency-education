@@ -11,6 +11,7 @@ import Terms from "../Components/Pages/Terms/Terms";
 import Error from "../Components/Pages/Error/Error";
 import Login from "../Components/Pages/Login/Login";
 import Registration from "../Components/Pages/Registration/Registration";
+import PreviewCourses from "../Components/Pages/PreviewCourses/PreviewCourses";
 
 export const router = createBrowserRouter([
     {
@@ -22,7 +23,12 @@ export const router = createBrowserRouter([
           element: <Home/>,
         },{
           path: '/courses',
-          element: <Courses/>
+          element: <Courses/>,
+          loader: ()=> fetch("http://localhost:5000/courses")
+        },{
+          path: '/preview-course/:id',
+          element: <PreviewCourses/>,
+          loader: ({params})=> fetch(`http://localhost:5000/course/preview/${params.id}`)
         },{
           path: '/gallery',
           element: <Gallery/>

@@ -6,7 +6,7 @@ import { FaArrowRight } from "react-icons/fa";
 const TopCourses = () => {
     const [courses, setCourses] = useState([]);
     useEffect(() => {
-        fetch('/JSON/courses.json')
+        fetch('http://localhost:5000/courses')
             .then(res => res.json())
             .then(data => setCourses(data))
     }, [])
@@ -15,8 +15,8 @@ const TopCourses = () => {
             <h1 className='text-center text-2xl md:text-4xl text-blue-950 font-semibold uppercase'>Top Rated Learning Tutorials</h1>
             <div className='my-20 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 justify-items-center'>
                 {
-                    courses.map(course => (
-                        <div key={course.id} className='bg-gray-100 shadow-2xl rounded-xl overflow-hidden pb-5' style={{height: '450px'}}>
+                    courses.slice(0, 4).map(course => (
+                        <div key={course._id} className='bg-gray-100 shadow-2xl rounded-xl overflow-hidden pb-5' style={{height: '450px'}}>
                             <div className=' overflow-hidden h-1/2'>
                                 <img src={course.image} alt="" className='w-full' />
                             </div>
@@ -51,7 +51,7 @@ const TopCourses = () => {
                 }
             </div>
             <div className='text-center '>
-                <Link to="/" className=''> 
+                <Link to="/courses" className=''> 
                     <button className='w-fit bg-cyan-600 px-5 py-2 text-xl text-white rounded-lg'>
                         Explore All Courses
                     </button>

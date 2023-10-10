@@ -1,6 +1,5 @@
 [
     {
-        "id": 1,
         "image": "https://img.freepik.com/free-photo/html-css-collage-concept-with-person_23-2150062008.jpg?w=740&t=st=1696621287~exp=1696621887~hmac=29e68bd197eeb3d552837fc7e7c954e2a317a6ac3eb725c7c08060aa6288e493",
         "title": "Introduction to Programming",
         "tag": "Programming",
@@ -31,7 +30,6 @@
         }
     },
     {
-        "id": 2,
         "image": "https://img.freepik.com/premium-vector/web-developer-is-analyzing-programming-language_18660-442.jpg?w=740",
         "title": "Web Development Fundamentals",
         "tag": "Web Development",
@@ -61,7 +59,6 @@
             "number_of_ratings": 280
         }
     },{
-        "id": 3,
         "image": "https://img.freepik.com/free-vector/illustration-social-media-concept_53876-18134.jpg?w=740&t=st=1696623610~exp=1696624210~hmac=e1512c10f12c5f222ac14bb3f09cb764c6d2e845ee2b6a668b6e9904c4bcc082",
         "title": "Data Science Essentials",
         "tag": "Data Science",
@@ -91,7 +88,6 @@
             "number_of_ratings": 410
         }
     },{
-        "id": 4,
         "image": "https://img.freepik.com/free-vector/app-development-banner_33099-1720.jpg?w=740&t=st=1696623653~exp=1696624253~hmac=81d7d444e28836f4c9bbf4cfa616299ae7db0426da682147e46584d2ec53de3e",
         "title": "Mobile App Development with Flutter",
         "tag": "Mobile App Development",
@@ -120,5 +116,121 @@
             "average_rating": 4.6,
             "number_of_ratings": 260
         }
-    }
+    },{
+        "image": "https://img.freepik.com/free-vector/chalkboard-with-math-elements_1411-88.jpg?w=740&t=st=1696958790~exp=1696959390~hmac=e2ab118f9d6b3b0afbc988037311a555f5b97d4ef6ba9652bf042f37c30b4087",
+        "title": "Advanced Calculus and Differential Equations",
+        "tag": "Mathematics",
+        "price": 69.99,
+        "instructor": {
+            "name": "Professor Emily Parker",
+            "image": "https://img.freepik.com/free-photo/middle-aged-cheerful-dark-skinned-male-with-shining-smile_273609-28538.jpg?w=740&t=st=1696958811~exp=1696959411~hmac=04126e48c3b297763404b7188f8c2e1b5b3f0fee2ea18822fdf04dce2e5b2d16"
+        },
+        "overview": "Delve deep into advanced calculus and differential equations with this challenging mathematics course...",
+        "curriculum": {
+            "topics": [
+                "Limits and Continuity",
+                "Derivatives and Integrals",
+                "Differential Equations",
+                "Vector Calculus",
+                "Partial Differential Equations",
+                "Applications in Science and Engineering",
+                "Advanced Problem Solving",
+                "Mathematical Modeling"
+            ]
+        },
+        "last_update_date": "2023-11-05",
+        "duration": "12 weeks",
+        "level": "Advanced",
+        "ratings": {
+            "average_rating": 4.5,
+            "number_of_ratings": 180
+        }
+    },{
+        "image": "https://img.freepik.com/free-vector/scientific-formulas-chalkboard_23-2148507282.jpg?w=740&t=st=1696958857~exp=1696959457~hmac=20e0ed659a75c9ef57b1ac96a818c3a9d7974742eb3e5252c8824bc140c029f1",
+        "title": "Modern Physics: From Quantum Mechanics to Relativity",
+        "tag": "Physics",
+        "price": 59.99,
+        "instructor": {
+            "name": "Dr. Richard Johnson",
+            "image": "https://img.freepik.com/free-photo/young-man-wearing-blue-outfit-looking-confident_1298-291.jpg?w=740&t=st=1696958891~exp=1696959491~hmac=a1096a99a725667776d43f8f3260d5994d4de435bbafa44b1c065dcf362c2bc9"
+        },
+        "overview": "Explore the fascinating world of modern physics, from quantum mechanics to the theory of relativity...",
+        "curriculum": {
+            "topics": [
+                "Quantum Mechanics",
+                "Special Relativity",
+                "Nuclear Physics",
+                "Particle Physics",
+                "Cosmology",
+                "Advanced Experiments",
+                "Applications in Technology",
+                "Frontiers of Physics"
+            ]
+        },
+        "last_update_date": "2023-10-20",
+        "duration": "10 weeks",
+        "level": "Intermediate",
+        "ratings": {
+            "average_rating": 4.8,
+            "number_of_ratings": 240
+        }
+    },{
+        "image": "https://img.freepik.com/free-vector/science-scribbles_23-2147501583.jpg?w=740&t=st=1696958922~exp=1696959522~hmac=b2ca43492e7b675ae15ff76f51bebcafa4fe1548c93ce8a2f17828871c9267d7",
+        "title": "Chemistry: The Molecular World",
+        "tag": "Chemistry",
+        "price": 54.99,
+        "instructor": {
+            "name": "Dr. Sarah Rodriguez",
+            "image": "https://img.freepik.com/free-photo/bohemian-man-with-his-arms-crossed_1368-3542.jpg?w=740&t=st=1696958944~exp=1696959544~hmac=7d281297145e605713f2e5c310c1f5ea529e68ec865bd19690b7c27f42fa8c70"
+        },
+        "overview": "Dive into the fascinating world of chemistry, exploring molecules, reactions, and chemical phenomena...",
+        "curriculum": {
+            "topics": [
+                "Atomic Structure",
+                "Chemical Bonding",
+                "Chemical Reactions",
+                "Solutions and Concentrations",
+                "Chemical Thermodynamics",
+                "Organic Chemistry",
+                "Analytical Chemistry",
+                "Environmental Chemistry"
+            ]
+        },
+        "last_update_date": "2023-10-15",
+        "duration": "9 weeks",
+        "level": "Intermediate",
+        "ratings": {
+            "average_rating": 4.7,
+            "number_of_ratings": 210
+        }
+    },{
+        "image": "https://img.freepik.com/free-vector/flat-computer-engineering-concept_23-2148158713.jpg?w=740&t=st=1696958983~exp=1696959583~hmac=bf692cfae01ca3d09e1e097eb3b2bd3b75a6fd8977a30227b5faa68ab4c22e95",
+        "title": "Computer Fundamentals and Digital Literacy",
+        "tag": "Computer Fundamentals",
+        "price": 49.99,
+        "instructor": {
+            "name": "Dr. David Smith",
+            "image": "https://img.freepik.com/free-photo/handsome-young-cheerful-man-with-arms-crossed_171337-1073.jpg?w=740&t=st=1696959011~exp=1696959611~hmac=b76e3840d884412f11da6457b6952f05dc2cf0bb956e30178eecff37d4a85ce8"
+        },
+        "overview": "Get started with the basics of computing and digital literacy in this essential course...",
+        "curriculum": {
+            "topics": [
+                "Computer Hardware and Software",
+                "Operating Systems",
+                "Digital Communication",
+                "Internet Basics",
+                "Cybersecurity Awareness",
+                "Basic Programming Concepts",
+                "Ethical Use of Technology",
+                "Digital Skills for Everyday Life"
+            ]
+        },
+        "last_update_date": "2023-10-10",
+        "duration": "8 weeks",
+        "level": "Beginner",
+        "ratings": {
+            "average_rating": 4.6,
+            "number_of_ratings": 190
+        }
+    }       
 ]
