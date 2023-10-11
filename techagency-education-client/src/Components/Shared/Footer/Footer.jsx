@@ -25,8 +25,11 @@ const Footer = () => {
                 <div>
                     <h1 className='text-xl font-semibold mb-5'>Useful Links</h1>
                     <div className='flex flex-col gap-2'>
-                        <Link to="/">
+                        <Link to="/about">
                             <h1>About Us</h1>
+                        </Link>
+                        <Link to="/contact">
+                            <h1>Contact Us</h1>
                         </Link>
                         <Link to="/">
                             <h1>Privacy Policy</h1>

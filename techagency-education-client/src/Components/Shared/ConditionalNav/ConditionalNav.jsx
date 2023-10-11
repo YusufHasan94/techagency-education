@@ -16,9 +16,21 @@ import logo from "../../../assets/education.png";
 import { Link } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
 
-const pages = ['courses', 'gallery', 'notice', 'contact', 'about'];
+const pages = [
+    {
+        'path': '/dashboard',
+        'value': 'Profile'
+    },{
+        'path': '/dashboard/selected-course',
+        'value': 'Selected Course'
+    },
+    {
+        'path': '/dashboard/result',
+        'value': 'Result'
+    },
+];
 
-function Navbar() {
+function ConditionalNav() {
   const { user, logout } = React.useContext(AuthContext);
   console.log(user);
 
@@ -98,14 +110,14 @@ function Navbar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'none', marginTop: '15px' },
               }}
               style={{ color: 'black' }}
             >
               {pages.map((page) => (
-                <MenuItem key={page} onClick={handleCloseNavMenu}>
-                  <Link to={`/${page}`}>
-                    <Typography textAlign="center" color="black">{page}</Typography>
+                <MenuItem key={page.path} onClick={handleCloseNavMenu}>
+                  <Link to={`${page.path}`}>
+                    <Typography textAlign="center" color="black" fontSize="20px" fontFamily="monospace">{page.value}</Typography>
                   </Link>
                 </MenuItem>
               ))}
@@ -134,12 +146,12 @@ function Navbar() {
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex', justifyContent: 'center' } }} style={{ color: 'black' }}>
             {pages.map((page) => (
               <Button
-                key={page}
+                key={page.path}
                 onClick={handleCloseNavMenu}
                 sx={{ my: 2, display: 'block', color: 'black', fontWeight: '600' }}
               >
-                <Link to={`/${page}`}>
-                  {page}
+                <Link to={`${page.path}`}>
+                  {page.value}
                 </Link>
               </Button>
             ))}
@@ -170,9 +182,6 @@ function Navbar() {
                   onClose={handleCloseUserMenu}
                 >
                   <div className='flex flex-col mx-10 font-mono text-xl gap-1'>
-                    <Link to="/dashboard">
-                        Dashboard
-                    </Link>
                     <Link to="/" onClick={handleLogout}>
                         Logout 
                     </Link>
@@ -198,4 +207,4 @@ function Navbar() {
     </AppBar>
   );
 }
-export default Navbar;
+export default ConditionalNav;

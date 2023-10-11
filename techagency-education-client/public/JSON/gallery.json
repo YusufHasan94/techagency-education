@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "caption": "Winning the Science Fair",
+        "image": "https://img.freepik.com/free-photo/children-doing-chemical-experiment-teacher-watching_259150-60307.jpg?w=740&t=st=1697013466~exp=1697014066~hmac=ed5a4b784659a5a3d6766b06e20d0bd822a4c45346f84a5aa8d7ec37f5b4a378"
+    },
+    {
+        "id": 2,
+        "caption": "Graduation Day",
+        "image": "https://img.freepik.com/free-vector/illustration-university-graduates_53876-28468.jpg?w=740&t=st=1697013500~exp=1697014100~hmac=2bf675b9f4b0e4ac2eb170fd4b806ff037876ad1828235d512a366a4b32b35f5"
+    },
+    {
+        "id": 3,
+        "caption": "Sports Championship",
+        "image": "https://img.freepik.com/free-photo/finger-conference-row-competition-training_1134-884.jpg?w=900&t=st=1697013541~exp=1697014141~hmac=836ba83368131189275395843f2d48ec815b051590015818458f3d02c381592d"
+    },
+    {
+        "id": 4,
+        "caption": "First Place in Robotics Competition",
+        "image": "https://img.freepik.com/free-vector/school-child-winning-robotics-competition_74855-6646.jpg?w=740&t=st=1697013563~exp=1697014163~hmac=ef3d543012b26626110ca5b3d1b47dcedbe2cef5e29fde45bb21db108077090a"
+    },
+    {
+        "id": 5,
+        "caption": "Student of the Year Award",
+        "image": "https://img.freepik.com/premium-vector/two-boys-is-holding-their-big-thropy-graduation-s-day_33070-5147.jpg?w=740"
+    },
+    {
+        "id": 6,
+        "caption": "Published Research Paper",
+        "image": "https://img.freepik.com/free-photo/student-reading-notes-library_23-2147844695.jpg?w=740&t=st=1697013632~exp=1697014232~hmac=ebb502d1c9ca1c85fc74eb1a4eb64960ba02b2089956c47dc6f25f2c8093fdf6"
+    }
+]

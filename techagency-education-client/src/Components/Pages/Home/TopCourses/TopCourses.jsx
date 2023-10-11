@@ -35,7 +35,7 @@ const TopCourses = () => {
                                     <h1 className='font-semibold text-md opacity-70'>{course.instructor.name}</h1>
                                 </div>
                                 <div className='text-right my-2 flex justify-between'>
-                                    <Link to="/" className='flex items-center gap-2'> 
+                                    <Link to={`/preview-course/${course._id}`} className='flex items-center gap-2'> 
                                            <h1 className='text-lg text-cyan-700 font-semibold'>Preview</h1>
                                            <FaArrowRight className='hover:translate-x-1'/> 
                                     </Link>

@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "notice_data": "2023-10-15",
+        "notice": "Parent-Teacher Conference",
+        "content": "We will be holding a Parent-Teacher Conference on October 25th, 2023, from 3:00 PM to 7:00 PM. This is an opportunity to discuss your child's progress and address any concerns. We look forward to meeting with you."
+    },
+    {
+        "id": 2,
+        "notice_data": "2023-11-02",
+        "notice": "School Holiday",
+        "content": "Please be informed that the school will be closed on November 11th, 2023, in observance of Veterans Day. Classes will resume on the following day."
+    },
+    {
+        "id": 3,
+        "notice_data": "2023-12-05",
+        "notice": "Winter Concert",
+        "content": "Don't miss our annual Winter Concert on December 15th, 2023, at 6:00 PM in the school auditorium. Join us for a festive evening of music and celebration."
+    }
+]
