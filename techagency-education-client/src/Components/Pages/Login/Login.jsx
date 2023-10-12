@@ -1,23 +1,36 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import loginIcon from "../../../assets/key.png";
 import { FcGoogle } from "react-icons/fc";
 import {AuthContext} from "../../../providers/AuthProvider"; 
+import Swal from 'sweetalert2';
 
 const Login = () => {
     const {loginUser, loginWithGoogle} = useContext(AuthContext);
+    const navigate = useNavigate();
+    const location = useLocation();
+    const from = location.state?.from?.pathname || "/";
     const handleLogin = (e)=>{
         e.preventDefault();
         const form = e.target;
         const email = form.emailAddress.value;
         const password = form.password.value;
-        const user = {email, password}
-        console.log(user);
         loginUser(email, password)
         .then(()=>{
             console.log("Success login");
+            Swal.fire({
+                icon: 'success',
+                title: 'Congratulations',
+                text: 'Login Successful'
+              })
+            navigate(from, {replace:true});
         })
         .catch(err=>{
+            Swal.fire({
+                icon: 'error',
+                title: 'Warning',
+                text: 'Failed to login'
+              })
             console.log(err.message);
         })
     }
@@ -25,7 +38,7 @@ const Login = () => {
         loginWithGoogle()
         .then(res =>{
             const loggedUser = res.user;
-            console.log(loggedUser);
+            navigate(from, {replace:true});
         })
         .catch(err=>{
             console.log(err.message);

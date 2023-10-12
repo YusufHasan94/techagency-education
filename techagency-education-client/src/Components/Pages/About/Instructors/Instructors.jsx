@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 const Instructors = () => {
     const [courses, setCourses] = useState([]);
     useEffect(()=>{
-        fetch("http://localhost:5000/courses")
+        fetch("https://techagency-education-server.vercel.app/courses")
         .then(res=>res.json())
         .then(data=>setCourses(data))
     },[])

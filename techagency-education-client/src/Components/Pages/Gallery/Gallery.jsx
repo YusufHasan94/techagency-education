@@ -13,7 +13,7 @@ const Gallery = () => {
                 <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-5'>
                 {
                     images.map(image=>(
-                        <div key={image.id} className='bg-gray-100 rounded-xl overflow-hidden hover:bg-blue-950 hover:text-white'>
+                        <div key={image._id} className='bg-gray-100 rounded-xl overflow-hidden hover:bg-blue-950 hover:text-white'>
                             <img src={image.image} alt="" className='h-56 w-full' />
                             <h1 className='text-lg font-semibold text-center m-5'>{image.caption}</h1>
                         </div>

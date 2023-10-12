@@ -13,7 +13,7 @@ const Notice = () => {
 
     
     const handleOpen = (id) => {
-        const filter = notices.find(notice=>notice.id==id)
+        const filter = notices.find(notice=>notice._id==id)
         setSelected(filter);
         setOpen(true);
     };
@@ -35,11 +35,11 @@ const Notice = () => {
                     <tbody>
                         {
                             notices.map(notice => (
-                                <tr key={notice.id} className='border-2'>
+                                <tr key={notice._id} className='border-2'>
                                     <td className='border-2 text-center p-1'>{notice.notice_data}</td>
                                     <td className='border-2 px-1'>{notice.notice}</td>
                                     <td className='border-2 text-center'>
-                                        <Button onClick={()=>handleOpen(notice.id)}>Preview</Button>
+                                        <Button onClick={()=>handleOpen(notice._id)}>Preview</Button>
                                     </td>
                                 </tr>
                             ))

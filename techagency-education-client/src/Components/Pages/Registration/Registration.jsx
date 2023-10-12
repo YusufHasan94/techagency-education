@@ -1,20 +1,21 @@
 import React, { useContext } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../../providers/AuthProvider';
 import registrationIcon from "../../../assets/registration.png";
+import Swal from 'sweetalert2';
 
 const imgUploadKey = import.meta.env.VITE_image_upload_token;
 
 const Registration = () => {
     const {createUser, updateUser, logout} = useContext(AuthContext);
-    const imgUploadURL = `https://api.imgbb.com/1/upload?expiration=600&key=${imgUploadKey}`;
-    logout();
+    const imgUploadURL = `https://api.imgbb.com/1/upload?key=${imgUploadKey}`;
+    const navigate = useNavigate();
     const createNewUser = e=>{
         e.preventDefault();
         const form = e.target;
         const firstName = form.firstName.value;
         const lastName = form.lastName.value;
-        const name = firstName +' '+ lastName; 
+        const name = firstName + lastName; 
         const email = form.emailAddress.value;
         const password = form.password.value;
         const image = form.image;
@@ -28,12 +29,19 @@ const Registration = () => {
         .then(res=>res.json())
         .then(imgRes=> {
             if(imgRes.success){
-                const photoURL = imgRes.data.display_url;
+                const photoURL = imgRes?.data?.display_url;
                 createUser(email, password)
                 .then(()=>{
                     updateUser(name, photoURL);
-                    console.log('success to set');
-
+                    Swal.fire({
+                        position: 'top-end',
+                        icon: 'success',
+                        title: 'Your work has been saved',
+                        showConfirmButton: false,
+                        timer: 1500
+                      })                    
+                    logout();
+                    navigate('/');
                 }).catch(err=>{
                     console.log(err.message);
                 })

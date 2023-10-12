@@ -1,7 +1,28 @@
 import React from 'react';
 import { FaEnvelope, FaLocationDot, FaPhone } from "react-icons/fa6";
+import Swal from 'sweetalert2';
 
 const Contact = () => {
+    const handleFormSubmit = (e)=>{
+        e.preventDefault();
+        const form = e.target;
+        const name = form.name.value;
+        const email = form.email.value;
+        const subject = form.subject.value;
+        const message = form.message.value;
+        const query = {name: name, email: email, subject: subject, message: message};
+        if(query){
+            Swal.fire({
+                position: 'top-end',
+                icon: 'success',
+                title: 'Message Sent Successfully',
+                showConfirmButton: false,
+                timer: 1500
+            })
+            form.reset();
+        }
+
+    }
     return (
         <div>
             <div className='bg-cyan-300 bg-opacity-30 md:h-96 h-52 flex flex-col justify-center items-center'>
@@ -37,11 +58,11 @@ const Contact = () => {
                     Get Support From Experience Instructors
                 </h1>
                 <div className='flex justify-center items-center'>
-                    <form action="" className='text-center w-3/4'>
+                    <form action="" className='text-center w-3/4' onSubmit={handleFormSubmit}>
                         <input type="text" name="name" id="" className='p-2 border-2 rounded-lg text-lg w-full my-2' placeholder='Full Name' required />
                         <input type="email" name="email" id="" className='p-2 border-2 rounded-lg text-lg w-full my-2' placeholder='Your Email' required />
-                        <input type="text" name="name" id="" className='p-2 border-2 rounded-lg text-lg w-full my-2' placeholder='Your Subject' required />
-                        <textarea name="" id="" className='w-full h-40 border-2 rounded-lg p-2 text-lg my-2' placeholder='Your Message'></textarea>
+                        <input type="text" name="subject" id="" className='p-2 border-2 rounded-lg text-lg w-full my-2' placeholder='Your Subject' required />
+                        <textarea name="message" id="" className='w-full h-40 border-2 rounded-lg p-2 text-lg my-2' placeholder='Your Message'></textarea>
                         <input type="submit" value="Submit" className='w-fit md:w-1/4 my-2 bg-blue-950 text-white text-xl font-semibold  px-4 py-2 rounded-xl' />
                     </form>
                 </div>

@@ -148,7 +148,7 @@ function Navbar() {
           {
             user ?
               <Box sx={{ flexGrow: 0, display: 'flex', alignItems: 'center' }}>
-                <Tooltip title="Open settings">
+                <Tooltip title="Open Profile">
                   <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                     <img src={user.photoURL ? user.photoURL : 'No-Photo'} alt="" className='w-12 h-12 rounded-full' />
                   </IconButton>
